@@ -1,0 +1,229 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position:relative;
+    color :#fff;
+    background :rgba(1,17,27,0.5);
+    height:500px;
+    width:100%;
+}
+.header .background{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(2px);
+}
+.header .background img{
+    height: 100%;
+    width: 100%;
+}
+nav p{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: absolute;
+    margin-left: 300px;
+}
+nav p span{
+    padding: 20px;
+}
+nav p :hover{
+    background-color:rgb(4, 54, 29) ;
+    color: rgb(255, 255, 255);
+}
+.sec1 h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 500px;
+
+    
+}
+.sec1 .p1,.sec1 .p2{
+background-color: darkkhaki;
+padding: 10px 50px;
+margin-left: 500px;
+margin-top: 250px;
+}
+.sec1 .p2{
+margin-left: 30px;
+}
+.sec1 .sec1-info{
+    float: left;
+}
+.sec1-info p:hover{
+    background-color: rgb(4, 54, 29)
+}
+.sec2{
+    max-width: 100%;
+    height: 280px;
+    background-color: rgb(1, 44, 33);
+    top: 200px;
+    
+}
+.sction2{
+    text-align: center;
+    padding-top: 20px;
+}
+.sction2 h5{
+    letter-spacing: 4px;
+    font-size: x-large;
+    color: #e6e9ec ;
+
+    font-family: 'Segoe UI';
+}
+.sction2 p{
+    line-height: 25px;
+    font-size: large;
+    color: #cff0f0 ;
+}
+.sction2 button{
+    border:solid;
+    border-color: rgb(224, 224, 224);
+    padding: 10px 70px;
+    background-color: rgb(7, 73, 57);
+    margin: 20px;
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #dcdfe4 ;
+}
+.sction2 button:hover{
+    background-color: #ffffff;
+    color: rgb(7, 73, 57);
+}
+
+
+.sec3-info{
+    width: 33%;
+    height: 400px;
+    margin: 1px;
+    float: left;
+    box-sizing: border-box;
+
+}
+.sec3-info1{
+    background-color: rgb(104, 49, 70);
+}
+.sec3-info2{
+    background-color: rgb(76, 87, 72);
+}
+.sec3-info3{
+    background-color: rgb(58, 141, 83);
+}
+.sec3 i{
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.sec3 .p1{
+    padding-top: 20px;
+    padding-left: 160px;
+    font-size:large;
+    color: aliceblue;
+}
+.sec3 .p2{
+    text-align: center;
+    color: aliceblue;
+}
+.sec4{
+    background-color: rgb(255, 255, 255);
+    margin-top: 420px;
+    width: 100%;
+    height: 300px;
+}
+.sec4 h1,.sec7 h1{
+    padding-top: 100px;
+}
+.sec4 h1,.sec4 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 30px;
+    font-family:serif;
+}
+.sec5{
+    margin-top: 20px ;
+    width: 70%;
+    margin-left: 200px;
+}
+.sec5-info{
+    float: left;
+    width: 24%;
+    height: 200px;
+    margin: 2px;
+    background-color: #EEE;
+    box-sizing: border-box;
+}
+.sec5 i{
+    color: black;
+    padding-left: 100px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.sec5 p{
+    text-align: center;
+    padding-left: 13px;
+}
+.sec6{
+    width: 70%;
+}
+.sec6-info{
+    float: left;
+    width: 30%;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.sec6-info h1,.sec6-info p{
+    font-family: monospace;
+
+}
+.sec6-info button{
+    background-color: rgb(83, 59, 105);
+    color: cornsilk;
+    padding: 10px 40px;
+}
+.sec6-info button:hover{
+    background-color: cornsilk;
+    color: black;
+}
+.sec7{
+    background-color: rgb(7, 73, 57);
+    width: 100%;
+    height: 500px;
+    margin-top: 800px;
+}
+.sec7 h1,.sec7 p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    font-family:serif;
+}
+.sec7-info{
+    width: 100%;
+    overflow: hidden;
+}
+.sec7-info2{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 30px;
+}
+.imgend{
+    width: 100%;
+}
+.End{
+    background-color:rgb(58, 141, 83);
+    padding: 20px;
+}
+.End h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
